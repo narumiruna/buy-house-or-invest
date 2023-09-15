@@ -6,6 +6,7 @@ authors = ["なるみ <toucans-cutouts0f@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+numpy-financial = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
