@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "template"
+version = "0.1.0"
+description = ""
+authors = ["なるみ <toucans-cutouts0f@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+flake8 = "^6.0.0"
+toml = "^0.10.2"
+pytest = "^7.4.2"
+coverage = "^7.3.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+template = "template.cli:main"
